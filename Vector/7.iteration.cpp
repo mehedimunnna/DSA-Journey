@@ -13,6 +13,9 @@ int main(){
     }
     //iteration
     vector<int>::iterator x;
-    x = v.begin()+3;
+    for(x = v.begin(); x!=v.end();x++)
     cout<<*x<<endl;
+    
+     x = v.begin()+3;
+     cout<<"4th value: "<<*x<<endl;
 }
