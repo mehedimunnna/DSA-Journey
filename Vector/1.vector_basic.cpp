@@ -48,8 +48,12 @@ int main(){
     }
 
     cout << endl;
+    
+    cout<<v.empty()<<endl;                                       //if empty then print 1, if not then 0
 
     v.clear();
      cout << "Size = " << v.size() << endl;                     //clear
+    
+    cout<<v.empty()<<endl;                                       //1
 
 }
