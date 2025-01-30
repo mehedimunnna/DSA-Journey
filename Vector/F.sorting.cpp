@@ -25,4 +25,11 @@ int main(){
       cout<<u<<" ";                                    //65 50 30 20 10                       
     }
     cout << endl;
+
+    //sort till index 3
+    sort(v.begin(),v.begin()+3);
+    for(auto u:v){
+      cout<<u<<" ";                                   //30 50 65 20 10 
+    }
+    cout << endl;
 }
