@@ -46,8 +46,17 @@ int main(){
     {
         cout << v.at(i)<<' ';
     }
-
     cout << endl;
+    
+    //front value deleted
+    cout<<*v.begin()<<endl;
+    v.erase(v.begin());
+
+    cout<<"Front value deleted: ";
+    for(auto u:v){
+        cout<<u<<" ";
+    }
+    cout<<endl; 
     
     cout<<v.empty()<<endl;                                       //if empty then print 1, if not then 0
 
